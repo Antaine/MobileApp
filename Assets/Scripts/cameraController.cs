@@ -17,8 +17,8 @@ public class cameraController : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        offset.z = (transform.position.z - 1);
-        offset.x = (transform.position.x) + 1;
+        offset.z = (transform.position.z - 100);
+        offset.x = (transform.position.x);
         offset.y = (transform.position.x);
     }
 
